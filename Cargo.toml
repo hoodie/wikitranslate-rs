@@ -9,3 +9,6 @@ wikipedia = "0.3.1"
 [patch.crates-io]
 wikipedia = { git = "https://github.com/hoodie/wikipedia-rs" }
 
+
+[[bin]]
+name = "wt"
