@@ -2,6 +2,8 @@
 authors = ["Hendrik Sollich <hendrik@hoodie.de>"]
 name = "wiki-translate"
 version = "0.1.0"
+edition = "2018"
+autobins = false
 
 [dependencies]
 wikipedia = "0.3.1"
@@ -12,3 +14,4 @@ wikipedia = { git = "https://github.com/hoodie/wikipedia-rs" }
 
 [[bin]]
 name = "wt"
+path = "src/main.rs"
